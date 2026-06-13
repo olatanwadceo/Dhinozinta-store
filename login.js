@@ -37,7 +37,7 @@ document.querySelector('form').addEventListener('submit', function(e){
 			username: foundUser.username,
 			email: foundUser.email
 		}));
-		 window.location.href = 'dashboard.html';
+		 window.location.href = 'index.html';
 		}else{
 			errorMessage.textContent = 'Invalid email or password'; 
 			errorMessage.style.display = 'block';
